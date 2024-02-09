@@ -19,7 +19,7 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    StudentForm.addStudent(studentManager, scanner);
+                    studentManager.addStudent(StudentForm.addStudent(studentManager, scanner));
                     break;
                 case 2:
                     studentManager.displayStudents();
